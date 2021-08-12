@@ -1,6 +1,7 @@
 from .custom import CustomDataset
 from .xml_style import XMLDataset
 from .coco import CocoDataset
+from .coco_custom import Coco_Custom_Dataset
 from .voc import VOCDataset
 from .loader import GroupSampler, DistributedGroupSampler, build_dataloader
 from .utils import to_tensor, random_scale, show_ann, get_dataset
